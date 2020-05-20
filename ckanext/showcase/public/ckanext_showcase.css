@@ -29,6 +29,11 @@
     margin-bottom: 25px;
 }
 
+.ckanext-showcase-notes p img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
 .ckanext-showcase-launch {
     margin-bottom: 25px;
 }
