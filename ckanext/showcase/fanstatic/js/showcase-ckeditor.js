@@ -30,15 +30,6 @@ ckan.module('showcase-ckeditor', function ($) {
                 'imageUpload'
             ]
 
-        config.image = {
-            toolbar: [
-                'imageTextAlternative',
-                '|',
-                'imageStyle:alignLeft', 'imageStyle:full', 'imageStyle:alignRight'
-            ],
-            styles: ['alignLeft', 'full', 'alignRight']
-        }
-
         config.language = 'en'
 
         config.simpleUpload = {

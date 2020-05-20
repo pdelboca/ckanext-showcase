@@ -20,9 +20,6 @@ import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalli
 import BlockQuotePlugin from '@ckeditor/ckeditor5-block-quote/src/blockquote';
 import HeadingPlugin from '@ckeditor/ckeditor5-heading/src/heading';
 import ImagePlugin from '@ckeditor/ckeditor5-image/src/image';
-import ImageCaptionPlugin from '@ckeditor/ckeditor5-image/src/imagecaption';
-import ImageStylePlugin from '@ckeditor/ckeditor5-image/src/imagestyle';
-import ImageToolbarPlugin from '@ckeditor/ckeditor5-image/src/imagetoolbar';
 import ImageUploadPlugin from '@ckeditor/ckeditor5-image/src/imageupload';
 import LinkPlugin from '@ckeditor/ckeditor5-link/src/link';
 import ListPlugin from '@ckeditor/ckeditor5-list/src/list';
@@ -55,9 +52,6 @@ ClassicEditor.builtinPlugins = [
     BlockQuotePlugin,
     HeadingPlugin,
     ImagePlugin,
-    ImageCaptionPlugin,
-    ImageStylePlugin,
-    ImageToolbarPlugin,
     ImageUploadPlugin,
     LinkPlugin,
     ListPlugin,
